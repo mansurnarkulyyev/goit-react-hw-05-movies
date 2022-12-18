@@ -1,0 +1,38 @@
+.wrapper {
+  text-align: initial;
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 1020px;
+  margin: auto;
+}
+
+.error {
+  font-size: 30px;
+}
+.linkWrapper {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+.link {
+  text-decoration: none;
+  font-size: 17px;
+  color: #fff;
+  background-color: #32327c;
+  cursor: pointer;
+  line-height: 1.87;
+  display: inline-block;
+  letter-spacing: 0.06em;
+  border-radius: 100px;
+  width: 100px;
+  background-color: #5c5ced;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.activeLink {
+  composes: link;
+  background-color: #32327c;
+}
+

@@ -1,0 +1,22 @@
+.error {
+  font-size: 30px;
+}
+.castWrapper {
+  text-align: initial;
+}
+.list {
+  list-style: none;
+  display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.nameReal {
+  font-weight: 500;
+}
+.item { 
+    width: 100px;
+      border: 1px solid #5c5ced;
+      padding: 26px;
+      list-style: none;
+      border-radius: 10px;
+}

@@ -1,0 +1,26 @@
+.btn {
+  padding: 5px 8px;
+  cursor: pointer;
+  line-height: 1.87;
+  display: inline-block;
+  letter-spacing: 0.06em;
+  border: 1px solid #5c5ced;
+  border-radius: 100px;
+  width: 140px;
+  margin-top: 20px;
+  background-color: #5c5ced;
+}
+
+.active {
+  composes: btn;
+  background-color: #8f00ff;
+}
+.text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 0;
+}

@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  height: 15px;
+  margin-top: 15px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid #5c5ced;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #5c5ced;
+  text-decoration: none;
+}
+.icon {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
